@@ -14,9 +14,8 @@
     "coverage": "codecov",
     "lint": "eslint ./src/ ./test/  --fix",
     "semantic-release": "semantic-release",
-    "test": "vitest",
+    "test": "vitest --coverage",
     "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
