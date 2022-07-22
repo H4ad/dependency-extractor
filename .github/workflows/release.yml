@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install peer dependencies
-        run: npm run install:peers
-
       - name: Test
         run: npm test
 
