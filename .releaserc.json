@@ -1,6 +1,8 @@
 {
   "branches": [
-    "master"
+    {
+      "name": "master"
+    }
   ],
   "plugins": [
     [
