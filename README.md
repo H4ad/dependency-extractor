@@ -80,7 +80,7 @@ This library was based on [npm-dependencies-extractor](https://github.com/philip
 
 [issues-url]:https://github.com/H4ad/dependency-extractor/issues
 
-[codecov-img]:https://codecov.io/gh/H4ad/dependency-extractor/branch/main/graph/badge.svg
+[codecov-img]:https://codecov.io/gh/H4ad/node-modules-packer/branch/master/graph/badge.svg
 
 [codecov-url]:https://codecov.io/gh/H4ad/dependency-extractor
 
