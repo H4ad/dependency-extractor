@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [ 12.x, 14.x, 16.x, 18.x ]
+        node-version: [ 14.x, 16.x, 18.x ]
 
     steps:
       - uses: actions/checkout@v3
@@ -25,6 +25,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ matrix.node-version }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-${{ matrix.node-version }}-
+
+      - name: Update NPM
+        run: npm i -g npm
 
       - name: Install Lib Dependencies
         run: npm ci
