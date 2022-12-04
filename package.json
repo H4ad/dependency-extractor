@@ -29,7 +29,7 @@
     "url": "https://github.com/H4ad"
   },
   "engines": {
-    "node": ">=12.0"
+    "node": ">=14.0"
   },
   "keywords": [
     "dependencies",
@@ -50,7 +50,7 @@
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.7",
-    "@types/node": "12.20.43",
+    "@types/node": "14.18.34",
     "@typescript-eslint/eslint-plugin": "5.45.0",
     "@typescript-eslint/parser": "5.45.0",
     "@vitest/coverage-c8": "^0.25.3",
