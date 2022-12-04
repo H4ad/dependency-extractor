@@ -26,6 +26,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-${{ matrix.node-version }}-
 
+      - name: Update NPM
+        run: npm i -g npm
+
       - name: Install Lib Dependencies
         run: npm ci
 
